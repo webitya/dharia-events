@@ -49,11 +49,14 @@ export default function AdminLayout({ children }) {
   ]
 
   return (
-    <div className="min-h-screen bg-gray-100">
+    <div className="flex min-h-screen bg-gray-100">
       {/* Mobile sidebar overlay */}
       {sidebarOpen && (
         <div className="fixed inset-0 z-40 lg:hidden">
-          <div className="fixed inset-0 bg-gray-600 bg-opacity-75" onClick={() => setSidebarOpen(false)} />
+          <div
+            className="fixed inset-0 bg-gray-600 bg-opacity-75"
+            onClick={() => setSidebarOpen(false)}
+          />
         </div>
       )}
 
@@ -65,7 +68,10 @@ export default function AdminLayout({ children }) {
       >
         <div className="flex items-center justify-between h-16 px-6 border-b border-gray-200">
           <h1 className="text-xl font-bold text-primary">Dharia Events</h1>
-          <button onClick={() => setSidebarOpen(false)} className="lg:hidden text-gray-500 hover:text-gray-700">
+          <button
+            onClick={() => setSidebarOpen(false)}
+            className="lg:hidden text-gray-500 hover:text-gray-700"
+          >
             <X className="w-6 h-6" />
           </button>
         </div>
@@ -79,7 +85,9 @@ export default function AdminLayout({ children }) {
                   key={item.name}
                   href={item.href}
                   className={`flex items-center gap-3 px-4 py-3 text-sm font-medium rounded-lg transition-colors ${
-                    isActive ? "bg-primary text-white" : "text-gray-700 hover:bg-gray-100"
+                    isActive
+                      ? "bg-primary text-white"
+                      : "text-gray-700 hover:bg-gray-100"
                   }`}
                 >
                   <item.icon className="w-5 h-5" />
@@ -102,11 +110,14 @@ export default function AdminLayout({ children }) {
       </div>
 
       {/* Main content */}
-      <div className="lg:pl-64">
+      <div className="flex flex-col flex-1 lg:pl-64">
         {/* Top bar */}
         <div className="sticky top-0 z-10 bg-white shadow-sm border-b border-gray-200">
           <div className="flex items-center justify-between h-16 px-6">
-            <button onClick={() => setSidebarOpen(true)} className="lg:hidden text-gray-500 hover:text-gray-700">
+            <button
+              onClick={() => setSidebarOpen(true)}
+              className="lg:hidden text-gray-500 hover:text-gray-700"
+            >
               <Menu className="w-6 h-6" />
             </button>
 
@@ -120,7 +131,7 @@ export default function AdminLayout({ children }) {
         </div>
 
         {/* Page content */}
-        <main className="p-6">{children}</main>
+        <main className="flex-1 p-6 w-full">{children}</main>
       </div>
     </div>
   )

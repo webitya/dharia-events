@@ -1,6 +1,7 @@
 "use client"
 import { useState, useEffect } from "react"
 import { useSearchParams } from "next/navigation"
+import Script from "next/script"
 import Header from "../../components/header"
 import Footer from "../../components/footer"
 import { CreditCard, Shield, Clock } from "lucide-react"
@@ -263,7 +264,11 @@ export default function PaymentPage() {
       <Footer />
 
       {/* Razorpay Script */}
-      <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+       {/* Correct Razorpay Script */}
+      <Script
+        src="https://checkout.razorpay.com/v1/checkout.js"
+        strategy="afterInteractive"
+      />
     </div>
   )
 }

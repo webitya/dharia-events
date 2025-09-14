@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server"
-import clientPromise from "../../lib/mongodb"
-import { createReviewSchema } from "../../lib/models/review"
+import clientPromise from "../../../lib/mongodb"
+import { createReviewSchema } from "../../../lib/models/review"
 
 export async function GET(request) {
   try {

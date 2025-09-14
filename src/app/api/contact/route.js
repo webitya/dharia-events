@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server"
 import nodemailer from "nodemailer"
-import clientPromise from "../../lib/mongodb"
-import { createInquirySchema } from "../../lib/models/inquiry"
+import clientPromise from "../../../lib/mongodb"
+import { createInquirySchema } from "../../../lib/models/inquiry"
 
 export async function POST(request) {
   try {

@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server"
-import clientPromise from "../../../lib/mongodb"
-import { createBookingSchema, calculateTotalAmount } from "../../../lib/models/booking"
+import clientPromise from "../../../../lib/mongodb"
+import { createBookingSchema, calculateTotalAmount } from "../../../../lib/models/booking"
 
 export async function POST(request) {
   try {

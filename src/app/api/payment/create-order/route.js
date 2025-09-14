@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server"
 import Razorpay from "razorpay"
-import clientPromise from "../../../lib/mongodb"
+import clientPromise from "../../../../lib/mongodb"
 
 const razorpay = new Razorpay({
   key_id: process.env.RAZORPAY_KEY_ID,

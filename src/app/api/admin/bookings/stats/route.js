@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server"
-import clientPromise from "../../../../lib/mongodb"
-import { BookingStatus } from "../../../../lib/models/booking"
+import clientPromise from "../../../../../lib/mongodb"
+// import clientPromise from "../../../../lib/mongodb"
+import { BookingStatus } from "../../../../../lib/models/booking"
 
 export async function GET(request) {
   try {

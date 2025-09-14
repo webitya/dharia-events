@@ -135,7 +135,7 @@ export default function ContactPage() {
                     </div>
                     <h3 className="text-2xl font-bold text-green-600 mb-4">Message Sent Successfully!</h3>
                     <p className="text-muted-foreground mb-6">
-                      Thank you for contacting us. We've received your inquiry and will get back to you within 24 hours.
+                      Thank you for contacting us. We have received your inquiry and will get back to you within 24 hours.
                     </p>
                     <button
                       onClick={() => setSubmitted(false)}
@@ -278,7 +278,7 @@ export default function ContactPage() {
                 <div className="bg-card rounded-lg shadow-lg p-8">
                   <h3 className="text-2xl font-bold mb-4">Visit Our Office</h3>
                   <p className="text-muted-foreground mb-6">
-                    Schedule a consultation at our office to discuss your event requirements in detail. We'll help you
+                    Schedule a consultation at our office to discuss your event requirements in detail. We will help you
                     plan every aspect of your celebration.
                   </p>
                   <div className="space-y-4">

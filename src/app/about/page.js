@@ -86,7 +86,7 @@ export default function AboutPage() {
                 <p className="text-lg text-muted-foreground mb-6">
                   Founded in 2019 by Rajesh Dharia, Dharia Events began with a simple mission: to create extraordinary
                   celebrations that bring people together and create lasting memories. What started as a small venture
-                  in Hazaribagh has grown into one of Jharkhand's most trusted event management companies.
+                  in Hazaribagh has grown into one of Jharkhand s most trusted event management companies.
                 </p>
                 <p className="text-lg text-muted-foreground mb-6">
                   Our journey has been marked by countless beautiful weddings, joyful birthday celebrations, successful
@@ -94,7 +94,7 @@ export default function AboutPage() {
                   refine our craft.
                 </p>
                 <p className="text-lg text-muted-foreground">
-                  Today, we're proud to have a team of dedicated professionals who share our passion for excellence and
+                  Today, we re proud to have a team of dedicated professionals who share our passion for excellence and
                   our commitment to making every celebration special.
                 </p>
               </div>
@@ -186,7 +186,7 @@ export default function AboutPage() {
           <div className="max-w-4xl mx-auto px-4 text-center">
             <h2 className="text-4xl font-bold mb-6">Ready to Work With Us?</h2>
             <p className="text-xl mb-8 opacity-90">
-              Let's create something beautiful together. Contact us to discuss your upcoming event.
+              Let s create something beautiful together. Contact us to discuss your upcoming event.
             </p>
             <button className="bg-white text-primary px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors">
               Get In Touch

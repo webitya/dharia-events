@@ -194,9 +194,9 @@ export default function EventsPage() {
         {/* CTA Section */}
         <section className="py-20 bg-primary text-primary-foreground">
           <div className="max-w-4xl mx-auto px-4 text-center">
-            <h2 className="text-4xl font-bold mb-6">Don't See What You're Looking For?</h2>
+            <h2 className="text-4xl font-bold mb-6">Do not See What You are Looking For?</h2>
             <p className="text-xl mb-8 opacity-90">
-              We create custom event packages tailored to your specific needs and budget. Let's discuss your vision!
+              We create custom event packages tailored to your specific needs and budget. Let s discuss your vision!
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button className="bg-white text-primary px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors inline-flex items-center justify-center gap-2">

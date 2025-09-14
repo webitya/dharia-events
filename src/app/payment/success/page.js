@@ -60,7 +60,7 @@ export default function PaymentSuccessPage() {
             </div>
             <h1 className="text-4xl font-bold mb-4 text-green-600">Payment Successful!</h1>
             <p className="text-xl text-muted-foreground">
-              Your booking has been confirmed. We'll contact you soon with further details.
+              Your booking has been confirmed. We will contact you soon with further details.
             </p>
           </div>
 
@@ -127,7 +127,7 @@ export default function PaymentSuccessPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Next Steps */}
             <div className="bg-card rounded-xl shadow-lg p-8">
-              <h3 className="text-xl font-bold mb-4">What's Next?</h3>
+              <h3 className="text-xl font-bold mb-4">What s Next?</h3>
               <div className="space-y-4">
                 <div className="flex items-start gap-3">
                   <div className="w-6 h-6 bg-primary text-white rounded-full flex items-center justify-center text-sm font-bold">

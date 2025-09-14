@@ -72,7 +72,7 @@ export default function TestimonialsSection() {
             </div>
 
             <blockquote className="text-xl md:text-2xl text-center mb-8 text-pretty">
-              "{testimonials[currentIndex].text}"
+              {testimonials[currentIndex].text}
             </blockquote>
 
             <div className="flex items-center justify-center gap-4">
